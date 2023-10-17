@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+@import "images";
+@import "containers";
+@import "grid";
+@import "nav";
+@import "navbar";
+@import "card";
+
+html body{
+    background-color: #F5EBD8;
+    max-width: 500px;
+    width: 100%;
+    position: fixed;
+}
+*{
+    font-family: 'Gabarito';
+    color: #333333; 
+}
+
+.navbar a img{
+    padding-left: 0;
+    margin-left: -25px;
+    margin-right: -30px;
+}
+
+.circulo{
+    width: 60rem;
+    height: 60rem;
+    border-radius: 50%;
+    background-color: #fe4b22b5;
+    padding: 0%;
+    margin-left: 30rem;
+    margin-top: -30rem;
+    position: fixed;
+    z-index: -1;
+}
+
+.navbar a.navbar-brand {
+    margin-right: 14rem;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 4rem;
+}
+
+.navbar a.navbar-brand2{
+    margin-left: 12rem;
+    color: #ffffff;
+}
+
+
+.navbar{
+   margin-top: 0px;
+}
+
+.container{
+    display: inline-block;
+}
+
+.container_texto{
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+
+.container_texto h1{
+    font-size: 70px;
+    color: #F14301;
+}
+
+.container_texto h2{
+    font-size: 50px;
+}
+
+.container_texto h3{
+    font-size: 15px;
+}
+
+
+.container_texto .btn{
+    background-color: #F14301;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px  #fe4b22b5;
+}
+
+.container_texto .btn:hover{
+    background-color: #1db954;
+    color: #ffffff;;
+    scale: 110%;
+    box-shadow: 5px 5px 10px  #14ae4a;
+}
+
+
+.alimento-principal img{
+    margin-left: 42rem;
+    margin-top: -12rem;
+    
+}
+
